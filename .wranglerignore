@@ -1,0 +1,10 @@
+node_modules/**
+.git/**
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Wrangler bundles a large `workerd` binary in node_modules when installed.
+**/node_modules/workerd/bin/workerd
