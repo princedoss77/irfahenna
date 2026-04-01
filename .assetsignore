@@ -6,8 +6,5 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Cloudflare Workers validates `_redirects`; exclude it for Workers deploys.
-_redirects
-
 # Wrangler bundles a large `workerd` binary in node_modules when installed.
 **/node_modules/workerd/bin/workerd
